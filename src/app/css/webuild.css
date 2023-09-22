@@ -1,0 +1,72 @@
+.weBuild{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    /* border:  3px solid yellow; */
+    padding-left: 10px;
+}
+
+.card1{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+.borderCard{
+    border: 1px solid orange;
+}
+
+.cardImage{
+    width: 50px;
+    height: 50px;
+}
+
+.stars{
+    width: 75px;
+    height: 16px;
+}
+
+.weBuild2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+#para{
+    color: rgb(142  , 142, 143);
+}
+
+.weBuildText{
+    color: rgb(142,142,143);
+}
+
+.webuild_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    /* border:  1px solid red; */
+  
+
+}
+
+.left{
+    height:370px;
+    margin-top: 160px;
+    align-items: center;
+}

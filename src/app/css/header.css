@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* align-content: center; */
+    margin-top: 10px;
+}
+
+
+.gradient-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
+    border: none;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header img{
+
+    width: 100px;
+    height: 40px;
+}

@@ -1,0 +1,26 @@
+.boost{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    align-self: center;
+    justify-self: center;
+}
+
+.para{
+    color: rgb(142, 142, 143);
+}
+.text{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+}
+.move{
+    padding-right: 600px;
+    
+}
+.moves{
+    position: relative;
+    left: 600px;
+    top: 20px;
+    
+}

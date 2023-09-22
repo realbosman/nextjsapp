@@ -1,0 +1,8 @@
+.mainContainer{
+   display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   height: auto;
+   /* width: fit-content; */
+   /* border: 4px solid  yellow; */
+}

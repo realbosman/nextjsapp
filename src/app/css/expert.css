@@ -1,0 +1,81 @@
+.expertStart{
+    width: auto;
+ margin-top: 60px;
+ height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  align-content: flex-end;
+  color: white;
+  /* border: 2px solid green; */
+  
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(14, 14, 14);
+    border: 1px solid white;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.consulting{
+    color: white;
+    font-size:50px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.expertStart1{
+   /* flex-basis: 50%; */
+    /* margin-left: 300px; */
+     /* border: 2px solid red;  */
+    width: 300px;
+    height: auto;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 20px;
+
+   
+
+}
+.expertStart2{
+     
+    /* border: 2px solid wheat; */
+    width: 800px;
+    height: auto;
+    
+}
+
+.unlock{
+    color: rgb(142, 142, 143);
+}
+
+.expertStart1 img {
+   
+    width: 80px;
+    height: 30px;
+
+}
+
+.expertStart2 img {
+   
+    width: 800px;
+    height: 500px;
+
+}
+
+.expertStart11{
+    /* border: 2px solid greenyellow; */
+    line-height: normal;
+    
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+

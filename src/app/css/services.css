@@ -1,0 +1,125 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    height:auto;
+     align-self: center;
+    justify-content: flex-start;
+    width: auto;
+   /* align-items: center; */
+   /* border: 2px solid purple; */
+   text-align: start;
+   justify-self: center;
+}
+.serviceText{
+    color: rgb(142,142,143);
+}
+.readmore{
+    width: 75px;
+    height: 40px;
+}
+.listheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.listheader img{
+   width: 30px;
+   height: 30px;
+}
+
+.listheader h4{
+    margin-left: -90px;
+
+}
+.services2{
+   display: flex;
+   flex-direction: row;
+   height: auto;
+   align-items: center;
+   justify-content: center;
+   width: auto;
+   /* border: 2px solid gray; */
+   padding-right: 120px;
+   padding-top: 150px;
+   
+   
+}
+.services21{
+    border: 2px solid rgb(29,29,29);
+    border-radius: 10px;
+    height: fit-content;
+    margin-right: 15px;
+    width: 300px;
+    margin-top: 12px;
+    height: 300px;
+   
+    /* flex-basis: 40%; */
+
+}
+.buttonServices {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgb(14, 14, 14);
+    border: 1px solid white;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.services22{
+    border: 2px solid rgb(29,29,29);
+    border-radius: 10px;
+    margin-right: 15px;
+    /* flex-basis: 40%; */
+    width: 300px;
+    margin-top: 12px;
+    height: 300px;
+    align-self: center;
+    justify-self: center;
+   
+}
+.services23{
+    border: 2px solid rgb(29,29,29);
+    border-radius: 15px;
+    height: fit-content;
+    margin-right: 10px;
+    width: 300px;
+    margin-top: 12px;
+    height: 300px;
+    
+   
+    /* flex-basis: 40%; */
+}
+
+.first{
+    color: white;
+}
+.seriveHeader{
+    font-size: 40px;
+    
+    font-weight: lighter;
+    padding-bottom: 200px;
+    color: rgb(165, 162, 162);
+    
+}
+
+.serImgg{
+    width: 55px;
+    height: 90px;
+    margin-top: 150px;
+}
+
+
+
+
+.serSce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
