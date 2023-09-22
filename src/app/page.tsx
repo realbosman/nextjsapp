@@ -420,7 +420,7 @@ className="img"
 <div className="iconsFooter_img">
   <div className="fooImg">
   <Image
-src="/twitter .jpg"
+src="/twitter.jpg"
 alt="Twitter"
 width={20}
 height={20}
