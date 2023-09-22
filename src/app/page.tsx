@@ -372,7 +372,7 @@ className="left"
 <div className="boost">
             <div className="headBoost">
                 <h1>Looking to boost your </h1>
-                <h1>R&D? Let's talk about it. </h1>
+                
             </div>
             <div className="boostpara">
                 <p className="para">
