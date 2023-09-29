@@ -3,7 +3,7 @@
     flex-direction: column;
     color:white;
     height:auto;
-     align-self: center;
+     align-self: flex-start;
     justify-content: flex-start;
     width: auto;
    /* align-items: center; */
@@ -41,10 +41,10 @@
    justify-content: center;
    width: auto;
    /* border: 2px solid gray; */
-   padding-right: 120px;
-   padding-top: 150px;
+   /* padding-right: 120px; */
+   /* padding-top: 150px; */
    
-   
+   /* border:  3px solid red; */
 }
 .services21{
     border: 2px solid rgb(29,29,29);
@@ -102,8 +102,11 @@
     font-size: 40px;
     
     font-weight: lighter;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
     color: rgb(165, 162, 162);
+    text-align: left;
+    /* border:  3px solid red; */
+    
     
 }
 
@@ -118,8 +121,10 @@
 
 .serSce{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    width: auto;
+   
 
 }

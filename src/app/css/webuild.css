@@ -70,3 +70,9 @@ align-items: center;
     margin-top: 160px;
     align-items: center;
 }
+
+@media screen  and (max-width:600px){
+    .left{
+        display: none;
+    }
+}

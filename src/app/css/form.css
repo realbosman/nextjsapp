@@ -12,14 +12,15 @@ margin-top: 21px;
 form{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: auto;
+    /* border:  3px solid green; */
     
 }
 form span{
-    width: inherit;
-    display: flex;
+    width: auto;
+    /* display: flex; */
    
-    flex-direction: row;
+    /* flex-direction: row; */
 
 }
 form span input{
@@ -44,7 +45,7 @@ form input{
     flex-direction: column;
    /* border: 3px solid red; */
     align-items: center;
-    width: inherit;
+    width: auto;
     height: 500px;
     align-self: center;
     justify-self: center;

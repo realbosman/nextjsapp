@@ -3,10 +3,9 @@ import Image from 'next/image'
 
 
 export default function Home() {
-  return (  
-<html lang="en">
-<head/>  
-<body>
+  return ( 
+    
+
 <div className="topContainer">
 <div className="mainContainer">
 
@@ -24,8 +23,8 @@ export default function Home() {
         <div className="row expertStart">
             <div className="col-6  col-sm-12 expertStart1">
                  <div className="col expertStart11">
-                    <p className="consulting">Expert Startup Consulting </p>
-                    <p className="consulting">Consulting</p>
+                    <p className="consulting">Expert Startup Consulting   </p>
+                    
                  </div>
                  <div className="col expertStart12">
                     <p className="unlock">Unlock Your Funding Potential with Tailored 
@@ -261,7 +260,7 @@ src="/left_img.png"
 alt=""
 width={70}
 height={10}
-className="left"
+className="left img-fluid"
 />
 
   <div className="weBuild">
@@ -363,7 +362,7 @@ src="/right_img.png"
 alt=""
 width={70}
 height={10}
-className="left"
+className="left img-fluid"
 />
 
 </section>
@@ -405,9 +404,9 @@ className="img"
 {/* get in touch form */}
 <div className="formGetInTouch">
 <form action="submit">
-              <span>
-              <input type="text"  placeholder="Name"/>
-              <input type="email"  placeholder="E-Mail"/>
+              <span className='row'>
+              <input className=''type="text"  placeholder="Name"/>
+              <input className='' type="email"  placeholder="E-Mail"/>
               </span>
 
               <input type="text"  placeholder="Your message" className='name'/>
@@ -420,7 +419,7 @@ className="img"
 <div className="iconsFooter_img">
   <div className="fooImg">
   <Image
-src="/twit"
+src="/ttt.jpg"
 alt="Twitter"
 width={20}
 height={20}
@@ -475,7 +474,7 @@ height={40}
   {/* footer */}
 
   <div className=" footerBottom">
-            <ul className=" footerlst">
+            <ul className=" footerlst ">
                 <li className="">About Us</li>
                 <li className="">Disclaimer</li>
                 <li className="">Privacy policy</li>
@@ -528,11 +527,8 @@ height={40}
        
        
        </div>
-
-</body>
-</html>
+      
 
 );
 
-}
-  
+}; 

@@ -3,10 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 900px;
+    width: auto;
     align-self: center;
     margin-top: 50px;
     justify-self: center;
+    /* border:  3px solid red; */
 }
 
 .copyright  ul{
@@ -16,14 +17,17 @@
 
 .copyright  ul  li{
    margin-top: 10px;
+   
+   
 }
 .footerBottom{
     color: rgb(142, 142, 143);
    margin-top: 50px;
-   width: 900px;
+   width: auto;
    align-self: center;
    align-self: center;
    justify-self: center;
+   /* border:  3px solid white; */
 
 }
 
@@ -49,4 +53,8 @@
 
 }
 
+
+.footerlst li{
+    margin-right: 25px;
+}
 
