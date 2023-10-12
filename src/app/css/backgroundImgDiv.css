@@ -1,0 +1,11 @@
+.backgroundImgDiv{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    /* border:  3px solid chartreuse; */
+    background-image: url('../images/footer\ bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

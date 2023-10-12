@@ -166,7 +166,7 @@ value proposition.
             <Image
             src="/1.png"
             alt=""
-            width={30}
+            width={50}
             height={20}
             className="sp_icon1"
             />
@@ -382,9 +382,11 @@ className="left img-fluid"
                 <button className="gradient-button">Give us a call</button>
             </div>
         </div>
-
+        </div>
         {/* get in touch */}
-
+        
+<section className='backgroundImgDiv bg-image'
+>
         <div className=" getInTouch">
             <h1>Get in Touch</h1>
             <span>
@@ -496,8 +498,11 @@ height={40}
 
             <p>copyright@blogsite</p>
 
+
           </div>
-        </div>
+          </section>
+
+       
 
 
 
