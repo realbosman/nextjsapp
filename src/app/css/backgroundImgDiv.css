@@ -1,11 +1,57 @@
-.backgroundImgDiv{
+
+
+    .backgroundImgDiv {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        height: fit-content;
+        background-image: url('/footerbgs.png');
+        background-size: cover;
+        background-position: center ce ;
+         /* background-attachment:fixed ;  */
+        
+        background-repeat: no-repeat;
+    }
+  
+  /* .backgroundImgDiv{
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-self: center;
-    /* border:  3px solid chartreuse; */
+    
     background-image: url('../images/footer\ bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
+} */
+
+
+.bgg{
+  /* border: 2px solid brown; */
+  width: inherit;
+  height: 1000px;
+  position: relative;
+  z-index: 1;
+  bottom: 1000px;
+  /* margin-bottom: 1000px; */
+  visibility: hidden;
+  padding-bottom: 0;
+  
+}
+
+.zUpper{
+
+  position: relative;
+  /* border: 3px solid red; */
+  z-index: 3;
+  
+}
+
+
+.bgg1{
+  visibility: hidden;
+  /* border: 2px solid green; */
+  width: inherit;
+  height: 1000px;
 }

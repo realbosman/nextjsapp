@@ -385,7 +385,7 @@ className="left img-fluid"
         </div>
         {/* get in touch */}
         
-<section className='backgroundImgDiv bg-image'
+<section className='backgroundImgDiv bg-image zUpper'
 >
         <div className=" getInTouch">
             <h1>Get in Touch</h1>
@@ -421,7 +421,7 @@ className="img"
 <div className="iconsFooter_img">
   <div className="fooImg">
   <Image
-src="/ttt.jpg"
+src="/i1.png"
 alt="Twitter"
 width={20}
 height={20}
@@ -432,7 +432,7 @@ height={20}
 
   <div className="fooImg">
   <Image
-src="/insta.jpg"
+src="/i2.png"
 alt="Twitter"
 width={20}
 height={20}
@@ -442,10 +442,10 @@ height={20}
 
   <div className="fooImg">
   <Image
-src="/face.jpg"
+src="/i3.png"
 alt="Twitter"
-width={20}
-height={20}
+width={40}
+height={40}
 
 />
 
@@ -504,6 +504,20 @@ height={40}
 
        
 
+       {/* <div className="row bgg">
+        <div className="col-12 bgg1">
+        
+        <Image 
+                src="/footerbgs.png" 
+                 alt="" 
+                
+                 layout='fill'
+                 className="img-fluid "
+                />
+          
+        
+        </div>
+       </div> */}
 
 
 

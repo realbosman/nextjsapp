@@ -7,11 +7,12 @@
 }
 
 .iconsFooter_img img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
     align-self: center;
     justify-self: center;
+  
    
 }   
 .mail{
@@ -27,7 +28,7 @@
     width: 50px;
     height: 50px;
     display: flex;
-    background-color: black;
+    /* background-color: black; */
     flex-direction: row;
     justify-content: center;
     align-content: center;

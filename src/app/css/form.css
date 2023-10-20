@@ -30,7 +30,7 @@ form span input{
 form input{
     border: 1px solid rgb(234,147,30);
     color: white;
-    background-color: rgb(14,14,14);
+    background-color: rgb(14,14,14,0);
     height: 200px;
     margin-top: 21px;
     

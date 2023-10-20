@@ -1,0 +1,5 @@
+const img =document.createElement("img")
+img.setAttribute("src","../images/footer\ bg.jpg")
+img.setAttribute("height","2000")
+img.setAttribute("width","2000")
+document.getElementsByClassName("jsImg").appendchild("img")
