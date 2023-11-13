@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Londrina+Outline&family=Pacifico&display=swap');
+
 .boost{
     color: white;
     text-align: center;
@@ -23,4 +26,41 @@
     left: 600px;
     top: 20px;
     
+}
+.booost{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 70px;
+    font-family: 'Gruppo', sans-serif;
+}
+.parat{
+    color: rgba(244, 246, 247, 0.699);
+    font-family: 'Gruppo', sans-serif;
+    font-weight: lighter;
+    padding-top: 20px;
+    font-size: small;
+}
+.gradient-buttonz {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
+    border: solid 1px ;
+    border-radius: 20px;
+    color: #fff;
+    font-size: x-small;
+    cursor: pointer;
+    box-decoration-break: initial;
+    width: 107px;
+   height: 30px;
+    cursor: pointer;
+   position: relative;
+   top: 40px;
+   z-index: 2;
+   border-left: 3px double white;
+    border-bottom: 3px double white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    /* background: #000; */
+    padding: 0.25em 1em;
+
 }

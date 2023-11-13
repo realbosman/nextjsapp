@@ -1,18 +1,19 @@
 
 
-    .backgroundImgDiv {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-self: center;
-        height: fit-content;
-        background-image: url('/footerbgs.png');
-        background-size: cover;
-        background-position: center ce ;
-         /* background-attachment:fixed ;  */
-        
-        background-repeat: no-repeat;
-    }
+.backgroundImgDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Changed from 'align-self' to 'align-items' */
+  justify-content: center; /* Changed from 'justify-self' to 'justify-content' */
+  height: fit-content; /* Set the height to 100% of the viewport height */
+  /* background-image: url('/nnnh.jpg');
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed;  */
+  /* background-repeat: no-repeat;  */
+}
+
+
   
   /* .backgroundImgDiv{
     display: flex;
@@ -30,28 +31,38 @@
 .bgg{
   /* border: 2px solid brown; */
   width: inherit;
-  height: 1000px;
-  position: relative;
+  height: inherit;
+  
   z-index: 1;
-  bottom: 1000px;
+
   /* margin-bottom: 1000px; */
-  visibility: hidden;
+
   padding-bottom: 0;
   
 }
 
+.zz{
+  z-index: 3;
+  /* border: 3px solid green;  */
+  width: 100%;
+}
+
 .zUpper{
 
-  position: relative;
-  /* border: 3px solid red; */
-  z-index: 3;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+   /* border: 3px solid red;  */
+  /* z-index: 3; */
+  display: flex;
   
 }
 
-
+.itemZ{
+  position: absolute;
+}
 .bgg1{
-  visibility: hidden;
-  /* border: 2px solid green; */
   width: inherit;
-  height: 1000px;
+  height: inherit;
+  
 }

@@ -3,6 +3,15 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+// fontawesome.js
+
+// fontawesome.js
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+library.add(faFacebook, faTwitter, faInstagram);
+
 
 
 const inter = Inter({ subsets: ['latin'] })

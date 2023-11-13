@@ -5,4 +5,26 @@
     align-self: center;
     justify-self: center;
 }
+.get{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+.img{
+    padding-left: 10px;
+    position: relative;
+    left: 90px;
+    padding-top: 10px;
+}
+#parax{
+    color: rgba(187, 190, 190, 0.699);
+    font-family: 'Gruppo', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    font-size: small;
+    padding-top: 40px;
+    fill: none;
+    width: 100%;
+}
 

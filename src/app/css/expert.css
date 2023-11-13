@@ -18,9 +18,12 @@
     padding: 10px 20px;
     background: rgb(14, 14, 14);
     border: 1px solid white;
+   width: 120px;
+   height: 30px;
     border-radius: 23px;
     color: #fff;
-    font-size: 16px;
+    font-size: 10px;
+    align-items: center;
     cursor: pointer;
 }
 .consulting{

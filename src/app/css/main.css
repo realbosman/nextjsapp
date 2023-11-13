@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body{
     padding: 0px;
     margin: 0px;
@@ -25,12 +27,29 @@ body{
     display: inline-block;
     padding: 10px 20px;
     background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
-    border: none;
-    border-radius: 23px;
+    border: solid 1px ;
+    border-radius: 20px;
     color: #fff;
-    font-size: 16px;
+    font-size: 10px;
     cursor: pointer;
+    box-decoration-break: initial;
+    width: 120px;
+   height: 30px;
+    cursor: pointer;
+    border-bottom: double solid 1px white;
+    border-left: 3px double white;
+    border-bottom: 3px double white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    /* background: #000; */
+    padding: 0.25em 1em;
+
+    
 }
+/* .gradient-button::before{
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+} */
 
 .header img{
 
@@ -38,3 +57,24 @@ body{
     height: 40px;
 }
 /*  */
+
+.gradients-button {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 20px;
+font-weight: 100px;
+    z-index: 2;
+}
+.button{
+    border-left: 3px double white;
+    border-bottom: 3px double white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    background: #000;
+    padding: 0.25em 1em;
+
+}
+.services .picsz{
+    width: 50px;
+    height: 50px;
+}

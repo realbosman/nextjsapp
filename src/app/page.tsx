@@ -1,22 +1,21 @@
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles (required)
+
 
 
 
 export default function Home() {
   return ( 
     
+    
 
 <div className="topContainer">
 <div className="mainContainer">
 
         <div className=" header">
-           <Image 
-           src="/log.png"
-           alt=''
-           width={200}
-           height={300}
-           
-           />
+          <p className="gradients-button">Pitchable</p>
             <button className="gradient-button">Give us a call</button>
         </div>
         
@@ -28,10 +27,10 @@ export default function Home() {
                  </div>
                  <div className="col expertStart12">
                     <p className="unlock">Unlock Your Funding Potential with Tailored 
+                         Pitch Deck and Business Plan Services</p>
+                         {/* <p className="unlock">
                          Pitch Deck and Business Plan</p>
-                         <p className="unlock">
-                         Pitch Deck and Business Plan</p>
-                         
+                          */}
                  </div>
                  <button className="button">Give us a call</button>
             </div>
@@ -40,8 +39,9 @@ export default function Home() {
                 src="/numpic.png" 
                  alt="" 
                  className="img-fluid numImg"
-                 width={600} 
-                 height={200}
+                width={200}
+                height={100}
+                 
                 />
             </div>
         </div>
@@ -54,35 +54,43 @@ export default function Home() {
 
              
             <div className="services">
-            <p className="seriveHeader">Services</p>
-
+            <p className="seriveHeader ">Services</p>
+            {/* <Image
+            src="/side_img copy.png"
+            alt=""
+            width={50}
+            height={50}
+            className='picsz'
+            /> */}
             </div>
 
          <div className="row services2">
       <div className="col-4 col-sm-12 services21">
           <div className="listheader">
             <Image
-            src="/iconservice.png"
+            src="/zeros1.png"
             alt=""
-            width={20}
-            height={20}
+            width={50}
+            height={50}
+            className='pics'
             />
              <h4 className="first">PITCH DECK</h4>
-             <Image
-            src="/num_one.png"
+              <Image
+            src="/one1.png"
             alt=""
-            width={20}
-            height={20}
-            />
+            width={70}
+            height={70}
+            /> 
+            
           </div>
           <p className="serviceText">
                     Pitch deck services typically offer a rarnge of
-services, including content creation, design, and
-presentation coaching. Content creation involves
-developinga compeling story that clearly
-Communicates the problem that the business is
-solving, the market opportunity, and the unique
-value proposition.
+                    services, including content creation, design, and
+                    presentation coaching. Content creation involves
+                    developinga compeling story that clearly
+                    Communicates the problem that the business is
+                    solving, the market opportunity, and the unique
+                    value proposition.
 
                    </p>
 
@@ -91,17 +99,18 @@ value proposition.
         <div className="col-4 col-sm-12 services22">
         <div className="listheader">
         <Image
-            src="/advisory.png"
+            src="/twos1.png"
             alt=""
             width={20}
             height={20}
+            className='pics'
             />
           <h4 className="first">ADVISORY</h4>
           <Image
-            src="/ser_num2.png"
+            src="/two.png"
             alt=""
-            width={20}
-            height={20}
+            width={70}
+            height={70}
             />
         </div>
         <p className="serviceText">
@@ -120,17 +129,18 @@ value proposition.
        <div className="col-4 col-lg-4  services23">
         <div className="listheader">
         <Image
-            src="/advisory.png"
+            src="/threes1.png"
             alt=""
             width={20}
             height={20}
+            className='pics'
             />
        <h4 className='first'>BUSINESS PLAN</h4>
        <Image
-            src="/ser_num3.png"
+            src="/three.png"
             alt=""
-            width={20}
-            height={20}
+            width={70}
+            height={70}
             />
         </div>
 
@@ -161,13 +171,13 @@ value proposition.
             </div>
             <div className="sponsor2">
               <div className="row sponsorIcons1">
-                <div className="col-3 col-sm-12  fitcontent">
+              <div className="col-3 col-sm-12  fitcontent">
 
             <Image
             src="/1.png"
             alt=""
-            width={50}
-            height={20}
+            width={150}
+            height={70}
             className="sp_icon1"
             />
                 </div>
@@ -177,7 +187,7 @@ value proposition.
 <Image
 src="/2.png"
 alt=""
-width={30}
+width={300}
 height={20}
 className="sp_icon1"
 />
@@ -187,7 +197,7 @@ className="sp_icon1"
 <Image
 src="/3.png"
 alt=""
-width={30}
+width={70}
 height={20}
 className="sp_icon1"
 />
@@ -197,7 +207,7 @@ className="sp_icon1"
 <Image
 src="/4.png"
 alt=""
-width={30}
+width={70}
 height={20}
 className="sp_icon1"
 />
@@ -211,19 +221,20 @@ className="sp_icon1"
             <Image
             src="/gapIcon.png"
             alt=""
-            width={30}
+            width={70}
             height={20}
             className="sp_icon1"
             />
                 </div>
 
                 <div className="col-3 col-sm-12  fitcontent">
+                  
 
 <Image
 src="/5.png"
 alt=""
-width={30}
-height={20}
+width={200}
+height={70}
 className="sp_icon1"
 />
     </div>
@@ -232,9 +243,9 @@ className="sp_icon1"
 <Image
 src="/6.png"
 alt=""
-width={30}
-height={20}
-className="sp_icon1"
+width={200}
+height={70}
+className="image"
 />
     </div>
     <div className="col-3 col-sm-12  fitcontent">
@@ -242,8 +253,8 @@ className="sp_icon1"
 <Image
 src="/gapIcon.png"
 alt=""
-width={30}
-height={20}
+width={100}
+height={70}
 className="sp_icon1"
 />
     </div>
@@ -283,17 +294,19 @@ className="left img-fluid"
       <Image
 src="/c1.png"
 alt=""
-width={100}
-height={100}
+width={90}
+height={90}
+className='pp'
 
 />
 <p><b>Mr Jhon Smith</b></p>
-<p  id="para"> CEO of Omni Tech</p>
+<p  id="paras"> CEO of Omni Tech</p>
 <Image
-src="/s1.png"
+src="/star.png"
 alt=""
-width={70}
+width={100}
 height={30}
+className='star'
 
 />
 
@@ -310,17 +323,19 @@ height={30}
       <Image
 src="/c2.png"
 alt=""
-width={100}
-height={100}
+width={90}
+height={90}
+className='pp'
 
 />
 <p><b>Mr Jhon Smith</b></p>
-<p  id="para"> CEO of datasoft</p>
+<p  id="paras"> CEO of datasoft</p>
 <Image
-src="/s2.png"
+src="/star.png"
 alt=""
-width={70}
+width={100}
 height={30}
+className='star'
 
 />
       </div>
@@ -336,17 +351,19 @@ height={30}
       <Image
 src="/c3.png"
 alt=""
-width={100}
-height={100}
+width={90}
+height={90}
+className='pp'
 
 />
 <p><b>Mr Jhon Smith</b></p>
-<p  id="para"> CEO of datasoft</p>
+<p  id="paras"> CEO of datasoft</p>
 <Image
-src="/s3.png"
+src="/star.png"
 alt=""
-width={70}
+width={100}
 height={30}
+className='star'
 
 />
       </div>
@@ -370,36 +387,36 @@ className="left img-fluid"
 {/* boot div */}
 <div className="boost">
             <div className="headBoost">
-                <h1>Looking to boost your </h1>
+                <h1 className='booost'>Looking to boost your <br /> R&D Lets Talk About it.</h1>
                 
             </div>
             <div className="boostpara">
-                <p className="para">
+                <p className="parat">
                    TLVTech was a refreshing change from other vendors as they were fully in sync <br/>
                    with our results and for the future. Together we planned 
                 </p>
 
-                <button className="gradient-button">Give us a call</button>
+                <button className="gradient-buttonz">Give us a call</button>
             </div>
         </div>
         </div>
         {/* get in touch */}
         
-<section className='backgroundImgDiv bg-image zUpper'
->
+<section className=' zUpper'>
+  <section  className=' backgroundImgDiv bg-image zz  itemZ'>
         <div className=" getInTouch">
-            <h1>Get in Touch</h1>
+            <h1 className='get'>Get in Touch</h1>
             <span>
             <Image
 src="/getin_img.png"
 alt=""
-width={400}
+width={200}
 height={30}
 className="img"
 
 />
 </span>
-  <p  id="para">93% of traffic begins with a query. Even with a high number of <br/>
+  <p  id="parax">93%   of   traffic  begins with a query. Even with a high number of <br/>
                 searches being performed.</p>
 </div>
 
@@ -407,47 +424,51 @@ className="img"
 <div className="formGetInTouch">
 <form action="submit">
               <span className='row'>
-              <input className=''type="text"  placeholder="Name"/>
-              <input className='' type="email"  placeholder="E-Mail"/>
+              <input className='names'type="text"  placeholder="Name"/>
+              <input className='names' type="email"  placeholder="E-Mail"/>
               </span>
 
-              <input type="text"  placeholder="Your message" className='name'/>
+              <input type="text"  placeholder="" className='name'/>
               <button className="gradient-form-button">Send</button>
 </form>
 {/* foollow div */}
 <div className="follow">
-<h2>Follow Us On</h2>
+<h2 className='followme'>Follow Us On</h2>
 
 <div className="iconsFooter_img">
   <div className="fooImg">
-  <Image
+  {/* <Image
 src="/i1.png"
 alt="Twitter"
 width={20}
 height={20}
 
-/>
+/> */}
+<FontAwesomeIcon icon={faTwitter} size="2x" />
 
   </div>
 
   <div className="fooImg">
-  <Image
+  {/* <Image
 src="/i2.png"
 alt="Twitter"
 width={20}
 height={20}
-/>
+/> */}
+<FontAwesomeIcon icon={faInstagram} size="2x"/>
 
   </div>
 
   <div className="fooImg">
-  <Image
+  {/* <Image
 src="/i3.png"
 alt="Twitter"
 width={40}
 height={40}
 
-/>
+/> */}
+<FontAwesomeIcon icon={faFacebook} size="2x"/>
+
 
   </div>
 
@@ -504,20 +525,23 @@ height={40}
 
        
 
-       {/* <div className="row bgg">
+       <div className="row bgg  itemZ">
         <div className="col-12 bgg1">
         
         <Image 
                 src="/footerbgs.png" 
                  alt="" 
                 
-                 layout='fill'
+                 width={2000}
+                 height={2000}
                  className="img-fluid "
                 />
           
         
         </div>
-       </div> */}
+       </div>
+
+</section>
 
 
 

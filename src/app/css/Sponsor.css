@@ -1,15 +1,18 @@
 .Sponsor{
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(29, 29, 29);
+    border: 0.003px solid rgb(67, 66, 66);
     color: white;
     height:400px;
     text-align: center;
-    width: auto;
+    width: 87%;
     margin-top: 70px;
     align-self: center;
     border-radius: 10px;
     justify-self: center;
+    position: relative;
+    top: 40px;
+    
 
 }
 
@@ -60,6 +63,6 @@
     width: fit-content;
 }
 .sp_icon1{
-    width: 50px;
-    height: 30px;
+    width: 200px;
+    height: 100px;
 }
